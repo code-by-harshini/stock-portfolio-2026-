@@ -1,0 +1,46 @@
+=======================================================
+            STOCK PORTFOLIO TRACKER
+=======================================================
+
+--- Available Stocks ---
+Symbol       Price per Share
+----------------------------
+AAPL                    180
+TSLA                    250
+GOOGL                   140
+MSFT                    420
+AMZN                    190
+----------------------------
+
+How many stocks do you want to enter? 3
+
+Enter stock symbol (e.g., AAPL): AAPL
+Enter quantity for AAPL: 10
+
+Enter stock symbol (e.g., AAPL): TSLA
+Enter quantity for TSLA: 5
+
+Enter stock symbol (e.g., AAPL): MSFT
+Enter quantity for MSFT: 2
+
+=======================================================
+                PORTFOLIO SUMMARY
+=======================================================
+Symbol    Quantity    Price              Value
+-------------------------------------------------------
+AAPL      10          180                 1800
+TSLA      5           250                 1250
+MSFT      2           420                  840
+-------------------------------------------------------
+TOTAL INVESTMENT VALUE:                  3890
+=======================================================
+
+Do you want to save this portfolio to a file? (yes/no): yes
+
+Portfolio successfully saved to 'portfolio.txt'.
+
+Also save as CSV (portfolio.csv)? (yes/no): yes
+
+Portfolio successfully saved to 'portfolio.csv'.
+
+Thank you for using Stock Portfolio Tracker!
